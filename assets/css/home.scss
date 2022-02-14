@@ -13,10 +13,11 @@ body{
 .header .top p {
     height: 40px;
     color: white;
-    padding-top: 5px;
-    background-color:rgb(42, 42, 202);
+    padding-top: 8px;
+    background-color:#233a95;
 }
-.header .nav-top{
+.header 
+.nav-top{
     a{
         text-decoration: none;
         color: gray;
@@ -69,4 +70,284 @@ body{
   
   .dropdown:hover .dropbtn {
     color: rgb(87, 112, 180);
+  }
+
+
+  .nav-bottom{
+      .emblem img{
+          width: 180px;
+          height: 50px;
+          padding-left: 30px;
+      }
+      .location-bar{
+        .location-wrapper{
+          .btn-modal{
+              strong{
+                  font-size: 13px; 
+                  color: #223a95; 
+                  padding-right: 50px;
+              }
+              .fa-solid{
+                  font-size: 13px; 
+                  position: absolute;
+                  top: 20px;
+                  right: 12px;
+              }
+              span{
+                  font-size: .6875rem;
+                  margin: 0;
+                  color: rgb(151, 151, 151);
+                  padding-right: 82px;
+              }
+              position: relative;
+              background-color: white;
+              color: #233a95;
+              border: 1px solid rgba(151, 151, 151, 0.5);
+              margin-top: 25px;
+              margin-left: 45px;
+              height: 54px;
+              border-radius: 5px;
+              width: 180px;
+          }
+          .btn-modal:hover{
+              box-shadow: 0 5px 9px 0 rgba(0,0,0,0.10), 0 10px 35px 0 rgba(0,0,0,0.10);
+          }
+          .btn-modal:focus{
+              box-shadow: none;
+          }
+          .modal-body{
+              height: 400px;
+              overflow-y: scroll;
+              span{
+                  float: right;
+              }
+              .modals-search{
+                  margin-left: 32px;
+                  margin-bottom: 30px;
+                  padding-left: 10px;
+                  padding-top: 7px;
+                  background-color: #f3f4f7;
+                  width: 417px;
+                  border-radius: 5px;
+              }
+              .search{
+                  background-color: transparent;
+                  &::placeholder{
+                      color: rgb(151, 151, 151);
+                  }
+              }
+              .search:focus{
+                  border: none;
+              }
+              .search:focus-visible{
+                  outline: none;
+              }
+          }
+      }
+    } 
+  }
+  .search-bar input{
+    
+  }
+  .main{
+    
+    .slider{
+      width: 100%;
+      height: 450px;
+      position: relative;
+      
+  }
+  
+  .slider .img{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      
+  }
+  .slider .img div{
+     opacity: 0;
+     transition: all 0.5s;
+  }
+  
+  .slider .img img{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      box-sizing: border-box;
+      
+  }
+  
+  .slider .icons .icon{
+      position: absolute;
+      top: 200px;
+      font-size: 20px;
+      color: black;
+      cursor: pointer;
+      transition: all 0.3s;
+      background-color: white;
+      padding: 20px;  
+      border-radius: 50%;
+  
+  
+  }
+  .slider .icons .icon:hover{
+      opacity: 1;
+  }
+  
+  .slider .icons .left{
+      position: absolute;
+      left: 50px;
+      
+  
+  }
+  .slider .icons .right{
+      position: absolute;
+      right: 50px;
+      
+  }
+  
+  .active{
+      opacity: 1 !important;
+  }
+  }
+  .footer{
+    .footer-top{
+      background-color: #233a95;
+      height: 300px;
+      .subscribe {
+        background-color: white;
+        float: right;
+        color: black;
+        margin-right: 15px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+        
+
+      }
+      h6{
+        padding-top: 50px;
+        color: white;
+      }
+      i{
+        background-color: white;
+        font-size: 20px;
+        
+        
+      }
+      .sub-bar{
+        background-color: white;
+        height: 50px;
+        border-radius: 3px;
+        .subscribe,.subscribe-input,i{
+          margin-top: 13px;
+          padding-left: 10px;
+        }
+      }
+      .subscribe-input{
+        border: none;
+        
+
+      }
+      h3{
+        color: white;
+
+      }
+      p{
+        color: gray;
+        
+      }
+      .col-7 img{
+        color: blue;
+      }
+    }
+    .daily-info{
+      height: 65px;
+      margin-top: 40px;
+      span{
+        margin-left: 10px;
+      }
+      i{
+        margin-left: 25px;
+      }
+      .col-3{
+        border-right: 1px solid gray;
+      }
+    }
+    .product-info{
+      height: 550px;
+      padding-top: 80px;
+      background-color: rgb(241, 240, 240);
+      h6{
+        padding-bottom: 20px;
+      }
+      a{
+        font-size: 16px;
+        color: gray;
+        text-decoration: none;
+        
+      }
+    .col-2-custom{
+      width: 258px;
+    }
+    }
+    .info{
+      height: 150px;
+      display: flex;
+      .left-info i{
+        font-size: 20px;
+        border-radius: 50%;
+        border: 1px solid gray;
+        width: 40px;
+        position: absolute;
+        height: 40px;
+        padding: 9px;
+        
+      }
+      .col-2 i{
+        border-radius: 50%;
+        border: 1px solid gray;
+        width: 40px;
+        height: 40px;
+        padding: 11px;
+        margin-left: 10px;
+      }
+      span{
+        color: gray;
+        font-size: 13px;
+        display: flex;
+        padding-top: 5px;
+        
+      }
+      p{
+        font-size: 13px;
+        color: gray;
+        
+      }
+      h6{
+        padding-left: 30px;
+        
+      }
+      .text{
+        padding-left: 60px;
+      }
+      
+    }
+    .footer-finish{
+      height: 100px;
+      padding-top: 40px;
+      p{
+        font-size: 13px;
+        color: gray;
+      }
+      a{
+        text-decoration: none;
+        color: gray;
+        font-size: 13px;
+      }
+    }
   }
