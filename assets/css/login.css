@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.login-page {
+  padding-bottom: 150px;
+  padding-top: 80px;
+}
+
+.login-page .login-row .login-top h6 {
+  border-bottom: 1px solid #d4d3d3;
+  padding-bottom: 15px;
+}
+
+.login-page .login-row .login-top p {
+  font-size: 14px;
+  color: black;
+  padding-top: 10px;
+}
+
+.login-page .login-row .login-top input {
+  height: 1cm;
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  width: 95%;
+}
+
+.login-page .login-row button {
+  background-color: #2e2eaa;
+  width: 90px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-page .login-row a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #1ae2e2;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.login-page .login-row .rememeber {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.login-page .register-row .register-top h6 {
+  border-bottom: 1px solid #d4d3d3;
+  padding-bottom: 15px;
+}
+
+.login-page .register-row .register-top p {
+  font-size: 14px;
+  color: black;
+  padding-top: 10px;
+}
+
+.login-page .register-row .register-top input {
+  height: 1cm;
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  width: 95%;
+}
+
+.login-page .register-row button {
+  background-color: #2e2eaa;
+  width: 90px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-page .register-row a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #1ae2e2;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.login-page .register-row .rememeber {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.login-page .register-row p {
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.login-page .register-row p strong {
+  cursor: pointer;
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+footer .footer-top {
+  background-color: #233a95;
+  height: 300px;
+}
+
+footer .footer-top .col-7 {
+  padding-top: 30px;
+}
+
+footer .footer-top .subscribe {
+  background-color: white;
+  float: right;
+  color: black;
+  margin-right: 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+footer .footer-top h6 {
+  padding-top: 50px;
+  color: white;
+}
+
+footer .footer-top i {
+  background-color: white;
+  font-size: 20px;
+}
+
+footer .footer-top .sub-bar {
+  background-color: white;
+  height: 50px;
+  border-radius: 3px;
+}
+
+footer .footer-top .sub-bar .subscribe, footer .footer-top .sub-bar .subscribe-input, footer .footer-top .sub-bar i {
+  margin-top: 13px;
+  padding-left: 10px;
+}
+
+footer .footer-top .subscribe-input {
+  border: none;
+}
+
+footer .footer-top h3 {
+  color: white;
+}
+
+footer .footer-top p {
+  color: gray;
+}
+
+footer .footer-top .col-7 img {
+  color: blue;
+}
+
+footer .daily-info {
+  height: 65px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid gray;
+  background-color: #fafafa;
+}
+
+footer .daily-info span {
+  margin-left: 10px;
+}
+
+footer .daily-info i {
+  margin-left: 25px;
+}
+
+footer .daily-info .col-3 {
+  border-right: 1px solid gray;
+}
+
+footer .product-info {
+  height: 550px;
+  padding-top: 80px;
+  background-color: #fafafa;
+}
+
+footer .product-info h6 {
+  padding-bottom: 20px;
+}
+
+footer .product-info a {
+  font-size: 16px;
+  color: gray;
+  text-decoration: none;
+}
+
+footer .product-info .col-2-custom {
+  width: 258px;
+}
+
+footer .info {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .info .left-info i {
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  width: 40px;
+  position: absolute;
+  height: 40px;
+  padding: 9px;
+}
+
+footer .info .col-2 i {
+  border-radius: 50%;
+  border: 1px solid gray;
+  width: 40px;
+  height: 40px;
+  padding: 11px;
+  margin-left: 10px;
+}
+
+footer .info span {
+  color: gray;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5px;
+}
+
+footer .info p {
+  font-size: 13px;
+  color: gray;
+}
+
+footer .info h6 {
+  padding-left: 30px;
+}
+
+footer .info .text {
+  padding-left: 60px;
+}
+
+footer .footer-finish {
+  height: 100px;
+  padding-top: 40px;
+}
+
+footer .footer-finish p {
+  font-size: 13px;
+  color: gray;
+}
+
+footer .footer-finish a {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+}
+/*# sourceMappingURL=login.css.map */

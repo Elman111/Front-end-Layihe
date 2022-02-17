@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-page{
+    padding-bottom: 150px;
+    padding-top: 80px;
+    .login-row{
+        .login-top{
+            h6{
+                border-bottom: 1px solid rgb(212, 211, 211);
+                padding-bottom: 15px;
+            }
+            p{
+                font-size: 14px;
+                color: black;
+                padding-top: 10px;
+            }
+            input{
+                height: 1cm;
+                border: none;
+                outline: none;
+                background-color: rgb(241, 241, 241);
+                width: 95%;
+            }
+        }
+        button{
+            background-color: rgb(46, 46, 170);
+            width: 90px;
+            height: 40px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        a{
+            display: flex;
+            color: rgb(26, 226, 226);
+            text-decoration: none;
+            padding-top: 20px;
+        }
+        .rememeber{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            
+            
+        
+    }
+    
+}
+
+.register-row{
+    .register-top{
+        h6{
+            border-bottom: 1px solid rgb(212, 211, 211);
+            padding-bottom: 15px;
+        }
+        p{
+            font-size: 14px;
+            color: black;
+            padding-top: 10px;
+        }
+        input{
+            height: 1cm;
+            border: none;
+            outline: none;
+            background-color: rgb(241, 241, 241);
+            width: 95%;
+        }
+    }
+    button{
+        background-color: rgb(46, 46, 170);
+        width: 90px;
+        height: 40px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    a{
+        display: flex;
+        color: rgb(26, 226, 226);
+        text-decoration: none;
+        padding-top: 20px;
+    }
+    .rememeber{
+        padding-top: 20px;
+        padding-bottom: 20px; 
+}
+    p{
+        padding-top: 20px;
+        font-size: 14px;
+        strong{
+            cursor: pointer;
+            color: red;
+            border-bottom: 1px solid red;
+        }
+        
+    }
+
+
+}
+}
+
+
+
+footer{
+    .footer-top{
+      background-color: #233a95;
+      height: 300px;
+      .col-7{
+        padding-top: 30px;
+      }
+      .subscribe {
+        background-color: white;
+        float: right;
+        color: black;
+        margin-right: 15px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+        
+
+      }
+      h6{
+        padding-top: 50px;
+        color: white;
+      }
+      i{
+        background-color: white;
+        font-size: 20px;
+        
+        
+      }
+      .sub-bar{
+        background-color: white;
+        height: 50px;
+        border-radius: 3px;
+        .subscribe,.subscribe-input,i{
+          margin-top: 13px;
+          padding-left: 10px;
+        }
+      }
+      .subscribe-input{
+        border: none;
+        
+
+      }
+      h3{
+        color: white;
+
+      }
+      p{
+        color: gray;
+        
+      }
+      .col-7 img{
+        color: blue;
+      }
+    }
+    .daily-info{
+      height: 65px;
+      padding-top: 40px;
+      padding-bottom: 60px;
+      border-bottom: 1px solid gray;
+      background-color: rgb(250, 250, 250);
+      span{
+        margin-left: 10px;
+      }
+      i{
+        margin-left: 25px;
+      }
+      .col-3{
+        border-right: 1px solid gray;
+      }
+    }
+    .product-info{
+      height: 550px;
+      padding-top: 80px;
+      background-color: rgb(250, 250, 250);
+      h6{
+        padding-bottom: 20px;
+      }
+      a{
+        font-size: 16px;
+        color: gray;
+        text-decoration: none;
+        
+      }
+    .col-2-custom{
+      width: 258px;
+    }
+    }
+    .info{
+      height: 150px;
+      display: flex;
+      .left-info i{
+        font-size: 20px;
+        border-radius: 50%;
+        border: 1px solid gray;
+        width: 40px;
+        position: absolute;
+        height: 40px;
+        padding: 9px;
+        
+      }
+      .col-2 i{
+        border-radius: 50%;
+        border: 1px solid gray;
+        width: 40px;
+        height: 40px;
+        padding: 11px;
+        margin-left: 10px;
+      }
+      span{
+        color: gray;
+        font-size: 13px;
+        display: flex;
+        padding-top: 5px;
+        
+      }
+      p{
+        font-size: 13px;
+        color: gray;
+        
+      }
+      h6{
+        padding-left: 30px;
+        
+      }
+      .text{
+        padding-left: 60px;
+      }
+      
+    }
+    .footer-finish{
+      height: 100px;
+      padding-top: 40px;
+      p{
+        font-size: 13px;
+        color: gray;
+      }
+      a{
+        text-decoration: none;
+        color: gray;
+        font-size: 13px;
+      }
+    }
+  }
+  

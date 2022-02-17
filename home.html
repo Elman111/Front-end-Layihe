@@ -18,8 +18,8 @@
 </head>
 
 <body>
-
-    <div class="header">
+<header>
+    
         <div class="top  text-center">
             <p>Due to the <Strong>Covid 19</Strong> epidemic, orders may be processed with a slight delay</p>
         </div>
@@ -65,63 +65,68 @@
                         </div>
                     </div>
                 </div>
+            
+        
                 <div class="nav-bottom">
-                    <div class="emblem">
-                        <div class="row">
-                            <div class="logo">
-                                <div class="col-2">
+                    <div class="row ">
+                        <div class="col-2">
+                                <div class="emblem">
                                     <a href="">
                                         <img class="desktop-logo hide-mobiled"
                                             src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png"
                                             alt="Bacola – Grocery Market and Food Theme">
                                     </a>
+                                    <p>Online Grocery Shopping Center </p>
                                 </div>
                             </div>
-                            <div class="location-bar ">
-                                <div class="col-2">
+                            <div class="col-2">
+                                <div class="location-bar">
                                     <div class="location-wrapper">
-                                        <!-- Button trigger modal -->
                                         <button type="button" class="btn-modal btn-primary" data-bs-toggle="modal"
                                             data-bs-target="#staticBackdrop">
                                             <span>Your Location</span> <i class="fa-solid fa-angle-down"></i><br>
                                             <strong>Select a location</strong>
                                         </button>
-                
-                                        <!-- Modal -->
-                                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                            aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-scrollable">
                                                 <div class="modal-content">
                                                     <div class="modal-header">
-                
-                                                        <p id="staticBackdropLabel" class="modal-title"><strong>Choose your Delivery
+
+                                                        <p id="staticBackdropLabel" class="modal-title"><strong>Choose
+                                                                your Delivery
                                                                 Location</strong>
                                                             <br>
-                                                            Enter your address and we will specify the offer for your area.
+                                                            Enter your address and we will specify the offer for your
+                                                            area.
                                                         </p>
                                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                             aria-label="Close"></button>
                                                     </div>
                                                     <div class="modal-body">
                                                         <div class="modals-search">
-                                                            <i class="fa-solid fa-magnifying-glass"></i><input class="search ps-1"
+                                                            <i class="fa-solid fa-magnifying-glass"></i><input
+                                                                class="search ps-1"
                                                                 style="width: 95%; margin-bottom: 10px; border: none;"
                                                                 placeholder="Search your area" type="search">
                                                         </div>
                                                         <ul>
-                                                            <li class="list-group-item">Select a Location <span>Clear All</span> </li>
-                                                            <li class="list-group-item">Alabama <span>Min:130$</span> </li>
-                                                            <li class="list-group-item">Albania <span>Min:120$</span></li>
-                                                            <li class="list-group-item">New Zelland <span>Min:90$</span> </li>
-                                                            <li class="list-group-item">Azerbaijan <span>Min:150$</span> </li>
-                                                            <li class="list-group-item">Alabama <span>Min:130$</span> </li>
-                                                            <li class="list-group-item">Albania <span>Min:120$</span></li>
-                                                            <li class="list-group-item">New Zelland <span>Min:90$</span> </li>
-                                                            <li class="list-group-item">Azerbaijan <span>Min:150$</span> </li>
-                                                            <li class="list-group-item">Alabama <span>Min:130$</span> </li>
-                                                            <li class="list-group-item">Albania <span>Min:120$</span></li>
-                                                            <li class="list-group-item">New Zelland <span>Min:90$</span> </li>
-                                                            <li class="list-group-item">Azerbaijan <span>Min:150$</span> </li>
+                                                            <li class="list-group-item">Select a Location <span>Clear
+                                                                    All</span> </li>
+                                                            <li class="list-group-item">Alabama <span>Min:130$</span>
+                                                            </li>
+                                                            <li class="list-group-item">Albania <span>Min:120$</span>
+                                                            </li>
+                                                            <li class="list-group-item">New Zelland <span>Min:90$</span>
+                                                            </li>
+                                                            <li class="list-group-item">Azerbaijan <span>Min:150$</span>
+                                                            </li>
+                                                            <li class="list-group-item">Alabama <span>Min:130$</span>
+                                                            </li>
+                                                            <li class="list-group-item">Albania <span>Min:120$</span>
+                                                            </li>
+                                                            
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -130,27 +135,208 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="search-bar">
-                                <div class="col-6 ">
-                                    <!-- empty -->
+                            <div class="col-6">
+                                <div class="search-bar">
+                                    <input class="position-absolute" type="text" placeholder="Search for products...">
+                                    <i class="fas fa-search position-relative"></i>
                                 </div>
                             </div>
-                            <div class="bascet-bar">
-                                <div class="col-2">
-
+                            <div class="col-2">
+                                <div class="bascet-bar">
+                                    <div class="profile">
+                                        <a href=""><i class="fas fa-user-alt"></i></a>
+                                    </div>
+                                    <div class="bascet">
+                                        <div class="pricemenu">
+                                            <button class="pricemenubtn">$0.00</button>
+                                            <div class="pricemenu-content">
+                                            <img src="./assets/image/shopping-basket.png" alt="http://127.0.0.1:5500/login.html">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="finish-bottom-bar">
+                            <div class="col-3 mt-4">
+                                <div class="categories">
+                                    <div class="dropdown2">
+                                        <button class="btn btn-secondary btn-dropdown dropdown-toggle" type="button"
+                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-solid fa-bars"></i>
+                                            All categories
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li class="list-item"><a class="dropdown-item chevron" href="#"><i
+                                                        class="fa-brands fa-apple"></i> Fruits
+                                                    & Vegetables</a><i class="fa-solid fa-chevron-right"></i>
+                                                <ul class="dropdown-menu first">
+                                                    <li class="list-group-item">
+                                                        <a href="#" class="dropdown-item">Cuts & Sprouts</a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a href="#" class="dropdown-item">Exotic Fruits &
+                                                            Veggies</a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a href="#" class="dropdown-item">Fresh Fruits</a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a href="#" class="dropdown-item">Fresh
+                                                            Vegetables</a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a href="#" class="dropdown-item">Herbs &
+                                                            Seasonings</a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a href="#" class="dropdown-item">Packaged
+                                                            Produce</a>
+                                                    </li>
+                                                    <li class="list-group-item"><a href="#" class="dropdown-item">Party
+                                                            Trays</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="list-item"><a class="dropdown-item" href="#"><i
+                                                        class="fa-solid fa-drumstick-bite"></i>Meats & Seafoof</a></li>
+                                            <li class="list-item"><a class="dropdown-item" href="#"><i
+                                                        class="fa-solid fa-egg"></i>Breakfast & Dairy</a></li>
+                                            <li class="list-item"><a class="dropdown-item chevron" href="#"><i
+                                                        class="fa-solid fa-mug-saucer"></i>Beverages</a><i
+                                                    class="fa-solid fa-chevron-right"></i>
+                                                <ul class="dropdown-menu last">
+                                                    <li class="list-group-item"><a href="#" class="dropdown-item">Coffee</a>
+                                                    </li>
+                                                    <li class="list-group-item"><a href="#" class="dropdown-item">Craft Beer</a>
+                                                    </li>
+                                                    <li class="list-group-item"><a href="#" class="dropdown-item">Drink Boxes &
+                                                            Pouches</a></li>
+                                                    <li class="list-group-item"><a href="#" class="dropdown-item">Milk &
+                                                            Plant-Based
+                                                            Milk</a></li>
+                                                    <li class="list-group-item"><a href="#" class="dropdown-item">Soda & Pop</a>
+                                                    </li>
+                                                    <li class="list-group-item"><a href="#" class="dropdown-item">Sparkling
+                                                            Water</a></li>
+                                                    <li class="list-group-item"><a href="#" class="dropdown-item">Tea &
+                                                            Kombucha</a>
+                                                    </li>
+                                                    <li class="list-group-item"><a href="#" class="dropdown-item">Water</a></li>
+                                                    <li class="list-group-item"><a href="#" class="dropdown-item">Wine</li>
+                                                </ul>
+                                            </li>
+                                            <li class="list-item">
+                                                <a class="dropdown-item" href="#">
+                                                    <i class="fa-solid fa-burger"></i>
+                                                    Breads & Bakery</a>
+                                            </li>
+                                            <li class="list-item"><a class="dropdown-item" href="#"><i
+                                                        class="fa-solid fa-egg"></i>Breakfast & Dairy</a></li>
+                                            <li class="list-item"><a class="dropdown-item" href="#"><i
+                                                        class="fa-solid fa-mug-saucer"></i>Beverages</a></li>
+                                            <li class="list-item"><a class="dropdown-item last-item" href="#"><i
+                                                        class="fa-solid fa-burger"></i>Breads & Bakery</a></li>
+                                            <li class="list-item"><a class="dropdown-item" href="#">Value of the Day</a></li>
+                                            <li class="list-item"><a class="dropdown-item" href="#">Top 100 Offers</a></li>
+                                            <li class="list-item"><a class="dropdown-item" href="#">New Arrivals</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-9 mt-4">
+                                <div class="menu">
+                                    <div class="dropdown3">
+                                        <button class="dropbtn3">HOME <i class="fa-solid fa-angle-down down"></i></button>
+                                        <div class="dropdown-content3">
+                                            <a href="#">Home 1</a>
+                                            <a href="#">Home 2</a>
+                                            <a href="#">Home 3</a>
+                                            <a href="#">Home 4</a>
+                                            <a href="#">Home 5</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown4">
+                                        <button class="dropbtn4">SHOP <i class="fa-solid fa-angle-down down"></i></button>
+                                        <div class="dropdown-content4">
+                                            <a href="#">Shop Lists
+                                                <ul>
+        
+                                                    <li>Shop Default</li>
+                                                    <li>Shop Right Sidebar</li>
+                                                    <li>Sgop Wide</li>
+                                                    <li>List Left Sidebar</li>
+                                                    <li>Load More Button</li>
+                                                    <li>Infinite Scrolling</li>
+                                                </ul>
+                                            </a>
+                                            <a href="#">Product Detail
+                                                <ul>
+        
+                                                    <li>Product Default</li>
+                                                    <li>Product Variable</li>
+                                                    <li>Product Grouped</li>
+                                                    <li>Product External</li>
+                                                    <li>Product Downloadable</li>
+                                                    <li>Product With Video</li>
+                                                </ul>
+                                            </a>
+                                            <a href="#">Product Types
+                                                <ul>
+        
+                                                    <li>Single Type 1</li>
+                                                    <li>Single Type 2</li>
+                                                    <li>Single Type 3</li>
+                                                    <li>Single Type 4</li>
+                                                    <li>Thumbnails Left</li>
+                                                    <li>Zoom Image</li>
+                                                </ul>
+                                            </a>
+                                            <a href="#">Shop Pages
+                                                <ul>
+        
+                                                    <li>Cart</li>
+                                                    <li>Checkout</li>
+                                                    <li>My account</li>
+                                                    <li>Wishlist</li>
+                                                    <li>Order Tracking</li>
+                                                    <li>Order on WhatsApp</li>
+                                                </ul>
+                                            </a>
+                                            <a href="#">Shop Layouts
+                                                <ul>
+        
+                                                    <li>Two Columns</li>
+                                                    <li>Three Columns</li>
+                                                    <li>Three Columns Wide</li>
+                                                    <li>Four Columns</li>
+                                                    <li>Four Columns Wide</li>
+                                                    <li>Five Columns Wide</li>
+                                                </ul>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <button class="dropbtn5"><i class="fa-solid fa-drumstick-bite meat"></i>MEATS &
+                                        SEAFOOD</button>
+                                    <button class="dropbtn6"><i class="fa-solid fa-cookie-bite cookie"></i>BAKERY</button>
+                                    <button class="dropbtn7"><i class="fa-solid fa-mug-hot coffee"></i>BEVERAGES</button>
+                                    <button class="dropbtn8">BLOG</button>
+                                    <button class="dropbtn9">CONTACT</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            
+        </header>
+        
 
 
 
 
-    </div>
-    <div class="main">
+    
+    <main>
         <div class="main-slider">
             <div class="row mt-5">
                 <div class="slider">
@@ -180,8 +366,88 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="footer">
+        <div class="category-bar mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3" style="border: 1px solid rgb(230, 228, 228);">
+                        <div class="big-category">
+                            <img src="./assets/image/baverages-1.jpg" alt="">
+                            <h6>Beverages</h6>
+                            <p>11 items</p>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="row">
+                            <div class="col-3 card-body" style="border: 1px solid rgb(230, 228, 228);">
+                                
+                                    <div class="small-category">
+                                        <img src="./assets/image/biscuitssnacks-1.jpg" alt="">
+                                        <h6>Beverages</h6>
+                                        <p>11 items</p>  
+                                    </div>
+                               
+                                
+                            </div>
+                            <div class="col-3" style="border: 1px solid rgb(230, 228, 228);">
+                                <div class="small-category">
+                                    <img src="./assets/image/breadbakery-1.jpg" alt="">
+                                    <h6>Beverages</h6>
+                                    <p>11 items</p>  
+                                </div>
+                            </div>
+                            <div class="col-3" style="border: 1px solid rgb(230, 228, 228);">
+                                <div class="small-category">
+                                    <img src="./assets/image/dairy-1.jpg" alt="">
+                                    <h6>Beverages</h6>
+                                    <p>11 items</p>  
+                                </div>
+                            </div>
+                            <div class="col-3" style="border: 1px solid rgb(230, 228, 228);">
+                                <div class="small-category">
+                                    <img src="./assets/image/frozen Food" alt="">
+                                    <h6>Beverages</h6>
+                                    <p>11 items</p>  
+                                </div> 
+                            </div>
+                            <div class="col-3" style="border: 1px solid rgb(230, 228, 228);">
+                                <div class="small-category">
+                                    <img src="./assets/image/fruitvegetables-1.jpg" alt="">
+                                    <h6>Beverages</h6>
+                                    <p>11 items</p>  
+                                </div>
+                            </div>
+                            <div class="col-3" style="border: 1px solid rgb(230, 228, 228);">
+                                <div class="small-category">
+                                    <img src="./assets/image/staples" alt="">
+                                    <h6>Beverages</h6>
+                                    <p>11 items</p>  
+                                </div>
+                            </div>
+                            <div class="col-3" style="border: 1px solid rgb(230, 228, 228);">
+                                <div class="small-category">
+                                    <img src="./assets/image/household-1.jpg" alt="">
+                                    <h6>Beverages</h6>
+                                    <p>11 items</p>  
+                                </div>
+                            </div>
+                            <div class="col-3" style="border: 1px solid rgb(230, 228, 228);">
+                                <div class="small-category">
+                                    <img src="./assets/image/meat-1.jpg" alt="">
+                                    <h6>Beverages</h6>
+                                    <p>11 items</p>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <footer>
         <div class="footer-top">
             <div class="container">
                 <div class="row">
@@ -203,7 +469,7 @@
                 </div>
             </div>
         </div>
-        <div class="container"  style="border-bottom: 1px solid gray;">
+        <div class="container" style="border-bottom: 1px solid gray;">
             <div class="daily-info">
                 <div class="row">
                     <div class="col-3">
@@ -212,15 +478,15 @@
 
                     </div>
                     <div class="col-3">
-                        <i class="fa-solid fa-envelope"></i>
+                        <img src="./assets/image/delivery.png" alt="">
                         <span>Free delivery for order over $70</span>
                     </div>
                     <div class="col-3">
-                        <i class="fa-solid fa-envelope"></i>
+                        <img src="./assets/image/discount.png" alt="">
                         <span>Daily Mega Discounts</span>
                     </div>
                     <div class="col-3" style="border: none;">
-                        <i class="fa-solid fa-envelope"></i>
+                        <img src="./assets/image/dollar.png" alt="">
                         <sol-2-custompan>Best price on the market</span>
                     </div>
                 </div>
@@ -388,11 +654,11 @@
                     <div class="col-6" style="width: 40%;">
                         <div class="left-info">
                             <i class="fas fa-phone-volume"></i>
-                           <div class="text">
-                            <h4>8 800 555-55</h4\>
-                                <span>Working 8:00 - 22:00</span>
+                            <div class="text">
+                                <h4>8 800 555-55</h4\>
+                                    <span>Working 8:00 - 22:00</span>
+                            </div>
                         </div>
-                           </div>
                     </div>
                     <div class="col-6">
                         <div class="row">
@@ -402,20 +668,20 @@
                             </div>
                             <div class="col-5">
                                 <div class="img-all">
-                                        <img src="./assets/image/google-pay" alt="">                                   
-                                        <img src="./assets/image/app-store.png" alt="">
+                                    <img src="./assets/image/google-pay" alt="">
+                                    <img src="./assets/image/app-store.png" alt="">
                                 </div>
                             </div>
                             <div class="col-2 d-flex">
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
-                               <a href=""> <i class="fab fa-twitter"></i></a>
+                                <a href=""> <i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                            
-                        
-                        
-                        
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -424,7 +690,8 @@
             <div class="row">
                 <div class="footer-finish d-flex">
                     <div class="col-6">
-                    <p>Copyright 2022 © Bacola WordPress Theme. All rights reserved. Powered by KlbTheme.</p>                            </p>
+                        <p>Copyright 2022 © Bacola WordPress Theme. All rights reserved. Powered by KlbTheme.</p>
+                        </p>
                     </div>
                     <div class="col-6">
                         <a href="">Privacy Policy</a>
@@ -435,12 +702,13 @@
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+    </footer>
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script src="./assets/js/home.js"></script>
 </body>
 

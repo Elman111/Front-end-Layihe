@@ -10,13 +10,13 @@ body{
     
     font-size: 12px;
 }
-.header .top p {
+header .top p {
     height: 40px;
     color: white;
     padding-top: 8px;
     background-color:#233a95;
 }
-.header 
+header {
 .nav-top{
     a{
         text-decoration: none;
@@ -74,10 +74,19 @@ body{
 
 
   .nav-bottom{
-      .emblem img{
-          width: 180px;
+      .emblem {
+      img{
+          width: 200px;
           height: 50px;
           padding-left: 30px;
+      }
+          p{
+            font-size: 10px;
+            padding-left: 30px;
+            color: gray;
+            text-decoration: none;
+            cursor: pointer;
+          }
       }
       .location-bar{
         .location-wrapper{
@@ -103,11 +112,12 @@ body{
               background-color: white;
               color: #233a95;
               border: 1px solid rgba(151, 151, 151, 0.5);
-              margin-top: 25px;
+              margin-top: 13px;
               margin-left: 45px;
               height: 54px;
               border-radius: 5px;
               width: 180px;
+              
           }
           .btn-modal:hover{
               box-shadow: 0 5px 9px 0 rgba(0,0,0,0.10), 0 10px 35px 0 rgba(0,0,0,0.10);
@@ -137,7 +147,7 @@ body{
                   }
               }
               .search:focus{
-                  border: none;
+                border: none;
               }
               .search:focus-visible{
                   outline: none;
@@ -146,12 +156,406 @@ body{
       }
     } 
   }
-  .search-bar input{
+            .search-bar{
+              margin-left: 50px;
+              margin-top: 15px;
+             
+              input{
+                width: 570px;
+                height: 50px;
+                border-radius: 5px;
+                padding-left: 10px;
+                text-decoration: none;
+                background-color: rgb(243, 243, 243);
+                outline: none; border: none;
+              }
+              i{
+                margin-left: 540px;
+                margin-top: 15px;
+                font-size: 20px;
+              }
+            }
+            .bascet-bar{
+              display: flex;
+              padding-top: 20px;
+              .profile{
+              a{
+                color: gray;
+              }
+              i{
+                padding-top: 10px;
+                padding-left: 11px;
+                border-radius: 50%;
+                border: 1px solid gray;
+                width: 40px;
+                height: 40px;
+              }
     
-  }
-  .main{
+            }
+
+
+            .bascet{
+              .pricemenubtn {
+                background-color: white;
+                color: black;
+                padding: 5px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+                padding-left: 10px;
+              }
+              
+              .pricemenu {
+                position: relative;
+                display: inline-block;
+              }
+              
+              .pricemenu-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                right: 30px;
+                top: 50px;
+              }
+              
+              .pricemenu-content img {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                
+                
+              }
+              
+
+              
+              .pricemenu:hover .pricemenu-content {
+                display: block;
+                width: 300px;
+                height: 300px;
+                
+              }
+              
+              .pricemenu:hover .pricemenubtn {
+                background-color: white;
+              }
+              
+            }
+
+
+
+        }
+          .finish-bottom-bar{
+            .dropdown2 {
+              .btn-dropdown {
+                  background-color: #2BBEF9;
+                  border: none;
+                  border-radius: 20px;
+                  height: 50px;
+                  width: 214px;
+              }
+              .dropdown-menu {
+                  width: 215px;
+                  margin-top: 20px !important;
+                  li {
+                      cursor: pointer;
+                      &:hover {
+                          
+                          color: #2BBEF9;
+                          a {
+                              background-color: white;
+                              color: #2BBEF9;
+                          }
+                      }
+                      .first { 
+                          
+                          display:none;
+                          position:absolute;
+                          left:214px;
+                          top:0px; 
+                          border:1px solid #D9D9D9;
+                          height: 255px;
+                          border-radius: 4px;
+                          width: 220px; 
+                          li {
+                              padding: 0;
+                              border: none;
+                              
+                          }
+                      }
+                      .last {
+                          display:none;
+                          position:absolute;
+                          left:214px;
+                          top:0px; 
+                          border:1px solid #D9D9D9;
+                          height: 340px;
+                          border-radius: 4px;
+                          width: 220px; 
+                          li {
+                              padding: 0;
+                              border: none;
+                              
+                          }
+                      }
+                      &:hover ul { display:block; }
+                      a {
+                          i {
+                              padding-right: 5px;
+                          }
+                      }
+                      .chevron {
+                          display: inline;
+                          padding: 0 13px;
+                      }
+                      .last-item {
+                          border-bottom: 1px solid rgb(185, 185, 185);
+                          
+                      }
+                  }  
+                      
+              }
+          }
+          
+          .dropbtn3 {
+              background-color: white;
+              color: black;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+            }
+            
+            .dropdown3 {
+              position: relative;
+              display: inline-block;
+            }
+            
+            .dropdown-content3 {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            
+            .dropdown-content3 a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+            }
+            
+            .dropdown-content3 a:hover {
+              color: #2BBEF9;
+              
+            }
+            
+            .dropdown3:hover .dropdown-content3 {
+              display: block;
+            }
+            
+            .dropdown3:hover .dropbtn3 {
+              color: #2bbef9;
+              background-color: #e4eaec;
+              border-radius: 2.5rem;
+            }
+          
+            .menu .dropdown3 .down{
+                font-size: 13px;
+                margin-left: 2px;
+            }
+          
+            .dropbtn4 {
+              background-color: white;
+              color: black;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+            }
+            
+            .dropdown4 {
+              position: relative;
+              display: inline-block;
+            }
+            
+            .dropdown-content4 {
+              width: 100vw;
+              height: 25vw;
+              display: none;
+              position: absolute;
+              background-color: white;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            
+            .dropdown-content4 a {
+              color: #233a95;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              margin-left: 80px;
+            }
+            
+            .dropdown-content4 a:hover {
+              color: #2BBEF9;
+              
+            }
+            
+            .dropdown4:hover .dropdown-content4 {
+              display: flex;
+              margin-left: -735px;
+              justify-content: center;
+            }
+          
+            .dropdown4:hover .dropbtn4 {
+              color: #2bbef9;
+              background-color: #e4eaec;
+              border-radius: 2.5rem;
+            }
+          
+            .menu .dropdown4 .down{
+              font-size: 13px;
+              margin-left: 2px;
+            }
+          
+           .dropdown4 .dropdown-content4 a ul{
+               color: black;
+               margin-top: 20px;
+           }
+          
+           .dropdown4 .dropdown-content4 a ul li{
+               margin-top: 10px;
+               display: block;
+               margin-right: 50px !important;
+           }
+          
+           .dropdown4 .dropdown-content4 a ul li:hover{
+               color: #2bbef9;
+           }
+          
+           .dropbtn5{
+              background-color: white;
+              color: black;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+           }
+           .dropbtn5:hover{
+              color: #2bbef9;
+              background-color: #e4eaec;
+              border-radius: 2.5rem;
+           }
+          
+          .dropbtn5 .meat{
+              color: gray;
+              margin-right: 7px;
+              font-size: 18px;
+          }
+          
+          .dropbtn5:hover .meat{
+              color: #2bbef9;
+              background-color: #e4eaec;
+          }
+          
+          .dropbtn6{
+              background-color: white;
+              color: black;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+          }
+          
+          .dropbtn6:hover{
+              color: #2bbef9;
+              background-color: #e4eaec;
+              border-radius: 2.5rem;
+           }
+          
+          .dropbtn6 .cookie{
+              color: gray;
+              margin-right: 7px;
+              font-size: 18px;
+          }
+          
+          .dropbtn6:hover .cookie{
+              color: #2bbef9;
+              background-color: #e4eaec;
+          }
+          .dropbtn7{
+              background-color: white;
+              color: black;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+          }
+          
+          .dropbtn7:hover{
+              color: #2bbef9;
+              background-color: #e4eaec;
+              border-radius: 2.5rem;
+           }
+          
+          .dropbtn7 .coffee{
+              color: gray;
+              margin-right: 7px;
+              font-size: 18px;
+          }
+          
+          .dropbtn7:hover .coffee{
+              color: #2bbef9;
+              background-color: #e4eaec;
+          }
+          
+          .dropbtn8{
+              background-color: white;
+              color: black;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+          }
+          
+          .dropbtn8:hover{
+              color: #2bbef9;
+              background-color: #e4eaec;
+              border-radius: 2.5rem;
+           }
+           .dropbtn9{
+              background-color: white;
+              color: black;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+          }
+          
+          .dropbtn9:hover{
+              color: #2bbef9;
+              background-color: #e4eaec;
+              border-radius: 2.5rem;
+           }
+          }
+      }
+
+
+
+
+
+
+
+  main{
     
-    .slider{
+    .main-slider{
       width: 100%;
       height: 450px;
       position: relative;
@@ -177,7 +581,7 @@ body{
       position: absolute;
       top: 0;
       left: 0;
-      box-sizing: border-box;
+      
       
   }
   
@@ -209,15 +613,63 @@ body{
       right: 50px;
       
   }
-  
   .active{
       opacity: 1 !important;
   }
+.category-bar{
+
+  
+  .big-category{
+    
+    height: 350px;
+    
+    img{
+      width: 300px;
+      padding-top: 100px;
+    }
+    h6{
+      cursor: pointer;
+      margin-left: 100px;
+    }
+    p{
+      padding-left: 110px;
+      font-size: 13px;
+    }
+     
+    }
+    .small-category{
+      height: 250px;
+      text-align: center;
+
+      img{
+        width: 100px;
+        padding-top: 50px;
+      }
+      h6{
+        cursor: pointer;
+        padding-top: 30px;
+      }
+      p{
+        font-size: 13px;
+      }
+    }
   }
-  .footer{
+}
+
+
+
+
+
+
+
+
+  footer{
     .footer-top{
       background-color: #233a95;
       height: 300px;
+      .col-7{
+        padding-top: 30px;
+      }
       .subscribe {
         background-color: white;
         float: right;
@@ -267,7 +719,10 @@ body{
     }
     .daily-info{
       height: 65px;
-      margin-top: 40px;
+      padding-top: 40px;
+      padding-bottom: 60px;
+      border-bottom: 1px solid gray;
+      background-color: rgb(250, 250, 250);
       span{
         margin-left: 10px;
       }
@@ -281,7 +736,7 @@ body{
     .product-info{
       height: 550px;
       padding-top: 80px;
-      background-color: rgb(241, 240, 240);
+      background-color: rgb(250, 250, 250);
       h6{
         padding-bottom: 20px;
       }
@@ -351,3 +806,4 @@ body{
       }
     }
   }
+  

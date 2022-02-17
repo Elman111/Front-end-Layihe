@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .text {
+  padding-top: 50px;
+}
+
+main .text h1, main .text p {
+  text-align: center;
+}
+
+main .contact-info .contact-left {
+  background-color: #ececec;
+  height: 220px;
+  border-radius: 5px;
+}
+
+main .contact-info .contact-left .icon-left {
+  color: darkblue;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 40px;
+}
+
+main .contact-info .contact-left h6 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+main .contact-info .contact-left p {
+  font-size: 13px;
+  text-align: center;
+}
+
+main .contact-info .contact-main {
+  background-color: #ececec;
+  height: 220px;
+  border-radius: 5px;
+}
+
+main .contact-info .contact-main .icon-main {
+  color: darkblue;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 40px;
+}
+
+main .contact-info .contact-main h6 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+main .contact-info .contact-main p {
+  font-size: 13px;
+  text-align: center;
+}
+
+main .contact-info .contact-right {
+  background-color: #ececec;
+  height: 220px;
+  border-radius: 5px;
+}
+
+main .contact-info .contact-right .icon-right {
+  color: darkblue;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 40px;
+}
+
+main .contact-info .contact-right h6 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+main .contact-info .contact-right p {
+  font-size: 13px;
+  text-align: center;
+}
+
+main .send-bar {
+  height: 850px;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  padding-top: 100px;
+}
+
+main .send-bar .send-bar-main .text1 {
+  height: 180px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+main .send-bar .send-bar-main .text1 h1 {
+  text-align: center;
+}
+
+main .send-bar .send-bar-main .text1 p {
+  text-align: center;
+  font-size: 13px;
+}
+
+main .send-bar .messages {
+  padding-top: 70px;
+}
+
+main .send-bar .messages input {
+  width: 320px;
+  background-color: #f3f4f7;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+main .send-bar .messages p {
+  font-size: 13px;
+}
+
+main .send-bar .subject-input {
+  padding-left: 24%;
+}
+
+main .send-bar .subject-input input {
+  background-color: #f3f4f7;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  height: 50px;
+  border-radius: 5px;
+  width: 670px;
+}
+
+main .send-bar .subject-input p {
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+main .send-bar .your-message-input {
+  padding-left: 24%;
+}
+
+main .send-bar .your-message-input input {
+  background-color: #f3f4f7;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  height: 130px;
+  border-radius: 5px;
+  width: 670px;
+}
+
+main .send-bar .your-message-input p {
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+main .send-bar .your-message-input .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  padding-top: 15px;
+}
+
+main .send-bar .your-message-input .btn button {
+  border: none;
+  border-radius: 5px;
+  background-color: #1b1b85;
+  color: white;
+  left: 0px;
+  height: 50px;
+  width: 200px;
+}
+
+footer {
+  padding-top: 100px;
+}
+
+footer .footer-top {
+  background-color: #233a95;
+  height: 300px;
+}
+
+footer .footer-top .col-7 {
+  padding-top: 30px;
+}
+
+footer .footer-top .subscribe {
+  background-color: white;
+  float: right;
+  color: black;
+  margin-right: 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+footer .footer-top h6 {
+  padding-top: 50px;
+  color: white;
+}
+
+footer .footer-top i {
+  background-color: white;
+  font-size: 20px;
+}
+
+footer .footer-top .sub-bar {
+  background-color: white;
+  height: 50px;
+  border-radius: 3px;
+}
+
+footer .footer-top .sub-bar .subscribe, footer .footer-top .sub-bar .subscribe-input, footer .footer-top .sub-bar i {
+  margin-top: 13px;
+  padding-left: 10px;
+}
+
+footer .footer-top .subscribe-input {
+  border: none;
+}
+
+footer .footer-top h3 {
+  color: white;
+}
+
+footer .footer-top p {
+  color: gray;
+}
+
+footer .footer-top .col-7 img {
+  color: blue;
+}
+
+footer .daily-info {
+  height: 65px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid gray;
+  background-color: #fafafa;
+}
+
+footer .daily-info span {
+  margin-left: 10px;
+}
+
+footer .daily-info i {
+  margin-left: 25px;
+}
+
+footer .daily-info .col-3 {
+  border-right: 1px solid gray;
+}
+
+footer .product-info {
+  height: 550px;
+  padding-top: 80px;
+  background-color: #fafafa;
+}
+
+footer .product-info h6 {
+  padding-bottom: 20px;
+}
+
+footer .product-info a {
+  font-size: 16px;
+  color: gray;
+  text-decoration: none;
+}
+
+footer .product-info .col-2-custom {
+  width: 258px;
+}
+
+footer .info {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .info .left-info i {
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  width: 40px;
+  position: absolute;
+  height: 40px;
+  padding: 9px;
+}
+
+footer .info .col-2 i {
+  border-radius: 50%;
+  border: 1px solid gray;
+  width: 40px;
+  height: 40px;
+  padding: 11px;
+  margin-left: 10px;
+}
+
+footer .info span {
+  color: gray;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5px;
+}
+
+footer .info p {
+  font-size: 13px;
+  color: gray;
+}
+
+footer .info h6 {
+  padding-left: 30px;
+}
+
+footer .info .text {
+  padding-left: 60px;
+}
+
+footer .footer-finish {
+  height: 100px;
+  padding-top: 40px;
+}
+
+footer .footer-finish p {
+  font-size: 13px;
+  color: gray;
+}
+
+footer .footer-finish a {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+}
+/*# sourceMappingURL=contact.css.map */
