@@ -146,6 +146,24 @@ main .search-first i {
   font-size: 20px;
 }
 
+main .bottom-btn {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+main .bottom-btn a {
+  text-decoration: none;
+  color: black;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+main .bottom-btn i {
+  margin-left: 10px;
+}
+
 main .form .text {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -212,5 +230,301 @@ main .form .info .third-row img {
 main .form .info .third-row .txt {
   width: 170px;
   padding-left: 20px;
+}
+
+main .social-medias button {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height: 42px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  text-align: left;
+}
+
+main .social-medias button .fa-brands {
+  padding-left: 15px;
+}
+
+main .social-medias button span {
+  padding-left: 35px;
+}
+
+main .social-medias .fb {
+  background-color: #3b5998;
+}
+
+main .social-medias .fb:hover {
+  opacity: 0.7;
+}
+
+main .social-medias .tw {
+  background-color: #1da1f2;
+}
+
+main .social-medias .tw:hover {
+  opacity: 0.7;
+}
+
+main .social-medias .pinterest {
+  background-color: #e60023;
+}
+
+main .social-medias .pinterest:hover {
+  opacity: 0.7;
+}
+
+main .social-medias .linkedin {
+  background-color: #0077b5;
+}
+
+main .social-medias .linkedin:hover {
+  opacity: 0.7;
+}
+
+main .social-medias .reddit {
+  background-color: #ff4500;
+}
+
+main .social-medias .reddit:hover {
+  opacity: 0.7;
+}
+
+main .widgets img {
+  width: 100%;
+  height: 100%;
+}
+
+main .boxes {
+  max-width: 110px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  cursor: pointer;
+}
+
+main .boxes .box-1 {
+  width: 70px;
+  border: 1px solid #edeef5;
+  text-align: center;
+}
+
+main .boxes .box-2 {
+  margin-left: 25px;
+  width: 55px;
+  border: 1px solid #edeef5;
+  text-align: center;
+}
+
+main .boxes .box-3 {
+  margin-left: 40px;
+  width: 55px;
+  border: 1px solid #edeef5;
+  text-align: center;
+}
+
+main .boxes .box-4 {
+  width: 80px;
+  border: 1px solid #edeef5;
+  text-align: center;
+}
+
+main .boxes .box-5 {
+  margin-left: 30px;
+  width: 80px;
+  border: 1px solid #edeef5;
+  text-align: center;
+}
+
+main .boxes .box-6 {
+  margin-left: 65px;
+  width: 75px;
+  border: 1px solid #edeef5;
+  text-align: center;
+}
+
+main .boxes .box-7 {
+  width: 70px;
+  border: 1px solid #edeef5;
+  text-align: center;
+}
+
+main .boxes .box-8 {
+  margin-left: 25px;
+  width: 90px;
+  border: 1px solid #edeef5;
+  text-align: center;
+}
+
+main .boxes a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .footer-top {
+  background-color: #233a95;
+  height: 300px;
+}
+
+footer .footer-top .col-7 {
+  padding-top: 30px;
+}
+
+footer .footer-top .subscribe {
+  background-color: white;
+  float: right;
+  color: black;
+  margin-right: 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+footer .footer-top h6 {
+  padding-top: 50px;
+  color: white;
+}
+
+footer .footer-top i {
+  background-color: white;
+  font-size: 20px;
+}
+
+footer .footer-top .sub-bar {
+  background-color: white;
+  height: 50px;
+  border-radius: 3px;
+}
+
+footer .footer-top .sub-bar .subscribe, footer .footer-top .sub-bar .subscribe-input, footer .footer-top .sub-bar i {
+  margin-top: 13px;
+  padding-left: 10px;
+}
+
+footer .footer-top .subscribe-input {
+  border: none;
+}
+
+footer .footer-top h3 {
+  color: white;
+}
+
+footer .footer-top p {
+  color: gray;
+}
+
+footer .footer-top .col-7 img {
+  color: blue;
+}
+
+footer .daily-info {
+  height: 65px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid gray;
+  background-color: #fafafa;
+}
+
+footer .daily-info span {
+  margin-left: 10px;
+}
+
+footer .daily-info i {
+  margin-left: 25px;
+}
+
+footer .daily-info .col-3 {
+  border-right: 1px solid gray;
+}
+
+footer .product-info {
+  height: 550px;
+  padding-top: 80px;
+  background-color: #fafafa;
+}
+
+footer .product-info h6 {
+  padding-bottom: 20px;
+}
+
+footer .product-info a {
+  font-size: 16px;
+  color: gray;
+  text-decoration: none;
+}
+
+footer .product-info .col-2-custom {
+  width: 258px;
+}
+
+footer .info {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .info .left-info i {
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  width: 40px;
+  position: absolute;
+  height: 40px;
+  padding: 9px;
+}
+
+footer .info .col-2 i {
+  border-radius: 50%;
+  border: 1px solid gray;
+  width: 40px;
+  height: 40px;
+  padding: 11px;
+  margin-left: 10px;
+}
+
+footer .info span {
+  color: gray;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5px;
+}
+
+footer .info p {
+  font-size: 13px;
+  color: gray;
+}
+
+footer .info h6 {
+  padding-left: 30px;
+}
+
+footer .info .text {
+  padding-left: 60px;
+}
+
+footer .footer-finish {
+  height: 100px;
+  padding-top: 40px;
+}
+
+footer .footer-finish p {
+  font-size: 13px;
+  color: gray;
+}
+
+footer .footer-finish a {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
 }
 /*# sourceMappingURL=blog.css.map */
