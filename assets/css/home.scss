@@ -249,6 +249,7 @@ header {
 
         }
           .finish-bottom-bar{
+            display: flex;
             .dropdown2 {
               .btn-dropdown {
                   background-color: #2BBEF9;
@@ -327,6 +328,7 @@ header {
               font-size: 16px;
               border: none;
               cursor: pointer;
+              padding-left: 90px;
             }
             
             .dropdown3 {

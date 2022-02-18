@@ -264,6 +264,12 @@ header .bascet-bar .bascet .pricemenu:hover .pricemenubtn {
   background-color: white;
 }
 
+header .finish-bottom-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 header .finish-bottom-bar .dropdown2 .btn-dropdown {
   background-color: #2BBEF9;
   border: none;
@@ -346,6 +352,7 @@ header .finish-bottom-bar .dropbtn3 {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  padding-left: 90px;
 }
 
 header .finish-bottom-bar .dropdown3 {
