@@ -5,6 +5,694 @@
           box-sizing: border-box;
 }
 
+header .covid {
+  background-color: #233a95;
+  position: relative;
+  text-align: center;
+  height: 37px;
+  color: white;
+  font-size: 12px;
+  padding-top: 8px;
+}
+
+header .about ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header .about li {
+  color: gray;
+  margin-left: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+header .secure {
+  padding-bottom: 18px;
+  padding-left: 100px;
+  text-align: center;
+}
+
+header .secure span {
+  color: gray;
+  font-size: 13px;
+}
+
+header .secure .anc {
+  color: gray;
+  font-size: 17px;
+}
+
+header .help {
+  text-align: center;
+  padding-bottom: 18px;
+}
+
+header .help span {
+  color: gray;
+  padding-left: 10px;
+  border-left: 1px solid #edeef5;
+  font-size: 13px;
+}
+
+header .help a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  margin-left: 3px;
+}
+
+header .space {
+  border-left: 1px solid #edeef5;
+  padding-left: 10px;
+}
+
+header ul {
+  padding: 0;
+  list-style: none;
+}
+
+header ul li {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: center;
+}
+
+header ul li a {
+  display: block;
+  color: gray;
+  font-size: 15px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header ul li a:hover {
+  color: #2bbef9;
+}
+
+header ul li ul.dropdown {
+  padding-top: 40px;
+  min-width: 150px;
+  min-height: 150px;
+  background-color: whitesmoke;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+
+header ul li:hover ul.dropdown {
+  background-color: #fafafa;
+  color: #2bbef9;
+  display: block;
+}
+
+header ul li ul.dropdown li {
+  display: block;
+}
+
+header .site {
+  text-decoration: none;
+}
+
+header .site .logo-img {
+  width: 90%;
+}
+
+header .site .descp {
+  display: block;
+  color: gray;
+  margin-top: 2px;
+  font-size: 12px;
+  opacity: .5;
+}
+
+header .location-wrapper .btn-modal strong {
+  font-size: 13px;
+  color: #223a95;
+  padding-right: 50px;
+}
+
+header .location-wrapper .btn-modal .fa-solid {
+  font-size: 13px;
+  position: absolute;
+  top: 20px;
+  right: 12px;
+}
+
+header .location-wrapper .btn-modal span {
+  font-size: .6875rem;
+  margin: 0;
+  color: #979797;
+  padding-right: 82px;
+}
+
+header .location-wrapper .btn-modal {
+  position: relative;
+  background-color: white;
+  color: #233a95;
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  margin-top: 10px;
+  margin-left: 30px;
+  height: 54px;
+  border-radius: 5px;
+  width: 180px;
+}
+
+header .location-wrapper .btn-modal:hover {
+  -webkit-box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.1), 0 10px 35px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.1), 0 10px 35px 0 rgba(0, 0, 0, 0.1);
+}
+
+header .location-wrapper .btn-modal:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+header .location-wrapper .modal-body {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+header .location-wrapper .modal-body span {
+  float: right;
+}
+
+header .location-wrapper .modal-body .modals-search {
+  margin-left: 18px;
+  margin-bottom: 30px;
+  padding-left: 5px;
+  padding-top: 7px;
+  background-color: #f3f4f7;
+  width: 417px;
+  border-radius: 5px;
+}
+
+header .location-wrapper .modal-body .search {
+  background-color: transparent;
+}
+
+header .location-wrapper .modal-body .search::-webkit-input-placeholder {
+  color: #979797;
+}
+
+header .location-wrapper .modal-body .search:-ms-input-placeholder {
+  color: #979797;
+}
+
+header .location-wrapper .modal-body .search::-ms-input-placeholder {
+  color: #979797;
+}
+
+header .location-wrapper .modal-body .search::placeholder {
+  color: #979797;
+}
+
+header .location-wrapper .modal-body .search:focus {
+  border: none;
+}
+
+header .location-wrapper .modal-body .search:focus-visible {
+  outline: none;
+}
+
+header .input {
+  position: relative;
+  width: 554px;
+  padding-top: 8px;
+  padding-left: 30px;
+}
+
+header .input input {
+  padding: 0px 15px;
+  width: 550px;
+  height: 60px;
+  background-color: #f3f4f7;
+  border-radius: 10px;
+  border: none;
+}
+
+header .input input:focus {
+  outline: none;
+}
+
+header .input .fa-solid {
+  position: absolute;
+  top: 28px;
+  right: 0;
+  font-size: 20px;
+}
+
+header .profile {
+  background-color: #ffffff;
+  border-color: #e2e4ec;
+  position: relative;
+  padding-top: 16px;
+}
+
+header .profile .fa-solid {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid gainsboro;
+  font-size: 19px;
+  color: #3e445a;
+  padding: 9px;
+  padding-left: 10px;
+}
+
+header .dropbtn {
+  color: black;
+  background-color: white;
+  padding-top: 8px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  padding-right: 12px;
+}
+
+header .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+header .dropdown-content {
+  margin-top: 35px;
+  display: none;
+  position: absolute;
+  left: -200px;
+  background-color: #f9f9f9;
+  height: 300px;
+  min-width: 300px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+header .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+header .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+header .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .dropdown .shop {
+  position: absolute;
+  font-size: 19px;
+  color: #ea2b0f;
+  width: 40px;
+  height: 40px;
+  background-color: #fff1ee;
+  border-color: #fff1ee;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+header .price {
+  position: relative;
+  padding-left: 50px;
+}
+
+header .dropdown-content .crystal {
+  position: absolute;
+  font-size: 50px;
+  color: #ea2b0f;
+  width: 70px;
+  height: 70px;
+  background-color: gainsboro;
+  border-color: #fff1ee;
+  border-radius: 50%;
+  padding-top: 20px;
+  padding-left: 20px;
+  top: 18%;
+  left: 36%;
+}
+
+header .dropdown-content span {
+  position: absolute;
+  top: 44%;
+  left: 22%;
+  color: black;
+}
+
+header .dropdown-content .content {
+  height: 240px;
+  border-bottom: 1px solid gainsboro;
+}
+
+header .dropdown-content .ship {
+  font-size: 12px;
+  position: absolute;
+  top: 255px;
+  left: 14%;
+  color: gray;
+}
+
+header .shop .cart-icon span {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ea2b0f;
+  color: #ffffff;
+  top: 0;
+  right: -4px;
+  font-size: 11px;
+  padding-left: 6px;
+  padding-top: 3px;
+}
+
+header .shop .cart-icon {
+  width: 20px;
+  height: 20px;
+}
+
+header .dropdown2 .btn-dropdown {
+  background-color: #2BBEF9;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  width: 214px;
+}
+
+header .dropdown2 .dropdown-menu {
+  width: 215px;
+  margin-top: 20px !important;
+}
+
+header .dropdown2 .dropdown-menu li {
+  cursor: pointer;
+}
+
+header .dropdown2 .dropdown-menu li:hover {
+  color: #2BBEF9;
+}
+
+header .dropdown2 .dropdown-menu li:hover a {
+  background-color: white;
+  color: #2BBEF9;
+}
+
+header .dropdown2 .dropdown-menu li .first {
+  display: none;
+  position: absolute;
+  left: 214px;
+  top: 0px;
+  border: 1px solid #D9D9D9;
+  height: 255px;
+  border-radius: 4px;
+  width: 220px;
+}
+
+header .dropdown2 .dropdown-menu li .first li {
+  padding: 0;
+  border: none;
+}
+
+header .dropdown2 .dropdown-menu li .last {
+  display: none;
+  position: absolute;
+  left: 214px;
+  top: 0px;
+  border: 1px solid #D9D9D9;
+  height: 340px;
+  border-radius: 4px;
+  width: 220px;
+}
+
+header .dropdown2 .dropdown-menu li .last li {
+  padding: 0;
+  border: none;
+}
+
+header .dropdown2 .dropdown-menu li:hover ul {
+  display: block;
+}
+
+header .dropdown2 .dropdown-menu li a i {
+  padding-right: 5px;
+}
+
+header .dropdown2 .dropdown-menu li .chevron {
+  display: inline;
+  padding: 0 13px;
+}
+
+header .dropdown2 .dropdown-menu li .last-item {
+  border-bottom: 1px solid #b9b9b9;
+}
+
+header .dropbtn3 {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+header .dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+header .dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+header .dropdown-content3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+header .dropdown-content3 a:hover {
+  color: #2BBEF9;
+}
+
+header .dropdown3:hover .dropdown-content3 {
+  display: block;
+}
+
+header .dropdown3:hover .dropbtn3 {
+  color: #2bbef9;
+  background-color: #e4eaec;
+  border-radius: 2.5rem;
+}
+
+header .menu .dropdown3 .down {
+  font-size: 13px;
+  margin-left: 2px;
+}
+
+header .dropbtn4 {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+header .dropdown4 {
+  position: relative;
+  display: inline-block;
+}
+
+header .dropdown-content4 {
+  width: 100vw;
+  height: 25vw;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+header .dropdown-content4 a {
+  color: #233a95;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-left: 80px;
+}
+
+header .dropdown-content4 a:hover {
+  color: #2BBEF9;
+}
+
+header .dropdown4:hover .dropdown-content4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -735px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .dropdown4:hover .dropbtn4 {
+  color: #2bbef9;
+  background-color: #e4eaec;
+  border-radius: 2.5rem;
+}
+
+header .menu .dropdown4 .down {
+  font-size: 13px;
+  margin-left: 2px;
+}
+
+header .dropdown4 .dropdown-content4 a ul {
+  color: black;
+  margin-top: 20px;
+}
+
+header .dropdown4 .dropdown-content4 a ul li {
+  margin-top: 10px;
+  display: block;
+  margin-right: 50px !important;
+}
+
+header .dropdown4 .dropdown-content4 a ul li:hover {
+  color: #2bbef9;
+}
+
+header .dropbtn5 {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+header .dropbtn5:hover {
+  color: #2bbef9;
+  background-color: #e4eaec;
+  border-radius: 2.5rem;
+}
+
+header .dropbtn5 .meat {
+  color: gray;
+  margin-right: 7px;
+  font-size: 18px;
+}
+
+header .dropbtn5:hover .meat {
+  color: #2bbef9;
+  background-color: #e4eaec;
+}
+
+header .dropbtn6 {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+header .dropbtn6:hover {
+  color: #2bbef9;
+  background-color: #e4eaec;
+  border-radius: 2.5rem;
+}
+
+header .dropbtn6 .cookie {
+  color: gray;
+  margin-right: 7px;
+  font-size: 18px;
+}
+
+header .dropbtn6:hover .cookie {
+  color: #2bbef9;
+  background-color: #e4eaec;
+}
+
+header .dropbtn7 {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+header .dropbtn7:hover {
+  color: #2bbef9;
+  background-color: #e4eaec;
+  border-radius: 2.5rem;
+}
+
+header .dropbtn7 .coffee {
+  color: gray;
+  margin-right: 7px;
+  font-size: 18px;
+}
+
+header .dropbtn7:hover .coffee {
+  color: #2bbef9;
+  background-color: #e4eaec;
+}
+
+header .dropbtn8 {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+header .dropbtn8:hover {
+  color: #2bbef9;
+  background-color: #e4eaec;
+  border-radius: 2.5rem;
+}
+
+header .dropbtn9 {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+header .dropbtn9:hover {
+  color: #2bbef9;
+  background-color: #e4eaec;
+  border-radius: 2.5rem;
+}
+
 .login-page {
   padding-bottom: 150px;
   padding-top: 80px;

@@ -26,3 +26,40 @@ leftIcon.addEventListener("click",function(){
         firstImg.classList.add("active");
     }
 })
+
+var clock = $('.clock').FlipClock({
+    clockFace: 'DailyCounter',
+    autoStart: false,
+    callbacks: {
+      stop: function() {
+        $('.message').html('The clock has stopped!')
+      }
+    }
+});
+
+clock.setTime(220880);
+
+clock.setCountdown(true);
+
+clock.start();
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    nav:true,
+
+    smartSpeed: 1500,
+    animateIn: 'linear',
+    animateOut: 'linear',
+    responsive:{
+
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
